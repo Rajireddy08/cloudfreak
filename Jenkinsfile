@@ -1,8 +1,8 @@
 pipeline {
   agent any
     tools {
-      maven '/opt/maven'
-                 jdk '/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64'
+      maven 'maven'
+                 java 'java'
     }
     stages {      
         stage('Build maven ') {
